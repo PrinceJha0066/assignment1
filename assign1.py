@@ -1,10 +1,5 @@
-# n1,n2,n3 = int(input("enter 3 numbers:"))
-# Total = n1+n2+n3
-# avg=Total/3
-# print(avg)
-
-a=int(input("enter a number"))
-b=int(input("enter a number"))
-c=int(input("enter a number"))
-d=(a+b+c)/3
-print (d)
+num1=int(input("Enter a value for num1: "))
+num2=int(input("Enter a value for num2: "))
+num3=int(input("Enter a value for num3: "))
+avg=(num1+num2+num3)/3
+print(f"Average of num1, num2, num3 is: {avg}")
